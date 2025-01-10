@@ -39,4 +39,58 @@ function displayCurrentDate() {
   
     document.getElementById("dateDifference").innerText = `Days Difference: ${daysDifference} days`;
   }
+
+//  const d = newDate("2021-03-25");
+//  d.getHours(); 
+
+// const d = newDate("2021-03-25");
+//  d.getMinutes(); 
+
+// const d = newDate("2021-03-25");
+//  d.getSeconds(); 
+//  document.write(d)
+ 
+// const d = newDate("2021-03-25");
+//  d.get.Milliseconds(); 
+// const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+const d= new Date();
+d.setYear(2025);
+document.write(d);
+
+// const d= new Date();
+// d.setMonth(11);
+// document.write(d)
+
+// const d= new Date();
+// d.setDate(16);
+// document.write(d)
+
+const d=new Date();
+d.setDate(d.getDate()+50);
+document.write(d);
+
+const d=new Date();
+d.setDate(d.getMonth()+50);
+document.write(d);
+
+const d=new Date();
+d.setDate(d.getFullYear()+50);
+document.write(d);
+ 
+if(someday>today){
+  text="Today is before January 14,2100";
+}
+else{
+  text="Today is after January 14,2100 "
+}
+
+ 
+ 
+
+ 
+
+ 
+ 
+
   
