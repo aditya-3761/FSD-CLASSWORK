@@ -28,4 +28,9 @@ function generateNumbers() {
     }
     document.getElementById("outputForInLoop").innerHTML = result;
   }
+
+  let text=""
+  for(let x in person){
+    text+=person[x];
+  }
   
