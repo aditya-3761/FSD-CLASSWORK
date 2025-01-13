@@ -21,3 +21,27 @@ Number("3.14")
 Number(Math.PI)
 Number("99 88")
 Number("John")
+
+x.toString()
+(123).toString()
+(100+23).toString()
+
+d=new Date();
+Number(d)
+
+d=new Date();
+d.getTime()
+
+// Converting Booleans TO Numbers
+Number(false)
+Number(true)
+
+// Converting Booleans TO Strings
+false.toString()
+true.toString()
+
+document.write(5+null)
+document.write("5"+null)
+document.write("5"+2)
+document.write("5"-2)
+document.write("5"*"2")
